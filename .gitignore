@@ -1,2 +1,4 @@
 .vscode/launch.json
 config/config.php
+data/
+db/

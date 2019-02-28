@@ -62,10 +62,10 @@ function file_upload()
           $('#errorContainer > .panel-body').text('ファイル容量が大きすぎます。');
           $('#errorContainer').fadeIn();
         break;
-      case 'extension_error':
-          $('#errorContainer > .panel-body').text('許可されていない拡張子です。拡張子:'+data.ext);
-          $('#errorContainer').fadeIn();
-        break;
+      //case 'extension_error':
+      //    $('#errorContainer > .panel-body').text('許可されていない拡張子です。拡張子:'+data.ext);
+      //    $('#errorContainer').fadeIn();
+      //  break;
       case 'comment_error':
           $('#errorContainer > .panel-body').text('コメントの文字数が規定数を超えています。');
           $('#errorContainer').fadeIn();
